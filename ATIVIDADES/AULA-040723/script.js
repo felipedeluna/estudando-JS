@@ -13,7 +13,7 @@ let num_m_2 = 5;
 let num_m_3 = 8;
 let result_m = (num_m_1 + num_m_2 + num_m_3) / 3;
 
-console.log(`A média entre ${num_m_1} + ${num_m_2} + ${num_m_3} é igual a ${result_m}.`);
+console.log(`A média entre ${num_m_1} + ${num_m_2} + ${num_m_3} é igual a ${result_m.toLocaleString(1)}.`);
 console.log("");
 
 // Escreva um programa que determine se um número é divisível por 3 e por 5 ao mesmo tempo.
@@ -48,8 +48,9 @@ let bask_pos = (-b + Math.sqrt(delta)) / (2*a);
 let bask_neg = (-b - Math.sqrt(delta)) / (2*a);
 
 console.log(`O resultado da equação ${a}x^2 + (${b}x) + (${c}) é igual a:`);
-console.log(`x1=${bask_pos}`);
-console.log(`x2=${bask_neg}`);
+console.log(`Δ = ${delta}`)
+console.log(`x1 = ${bask_pos.toLocaleString(1)}`);
+console.log(`x2 = ${bask_neg.toLocaleString(1)}`);
 console.log("");
 
 // Faça um programa que retorna se uma determinada pessoa pode dirigir, baseado na sua idade (utilize operador ternário).
