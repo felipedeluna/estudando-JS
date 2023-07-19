@@ -1,0 +1,26 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 500px;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, textarea, select, button {
+    padding: 5px;
+    border: 1px solid #767676;
+    border-radius: 5px;
+}
+input:focus, textarea:focus, select:focus {
+    outline: 0;
+}
+button{
+    cursor: pointer;
+}
